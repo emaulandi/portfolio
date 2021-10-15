@@ -20,7 +20,6 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
 	}
 
 	ul {
@@ -47,10 +46,7 @@
 		align-items: center;
 		padding: 0 1em;
 		color: var(--heading-color);
-		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
+		font-weight: 900;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
