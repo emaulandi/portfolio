@@ -1,5 +1,21 @@
-title,type,description
-project 1, client, i am project one
-project 2, highlight, i am project two
-project 3, personal, i am project three
-project 4, personal, i am project four
+title,type,img,tech,link,description
+Data Visualization class,teaching / workshop,efp.png,"python,seaborn,plotly",,18 hours of teaching 'Introduction to Data Visualization' class to data & computer science engineer students
+Listen Leon,client,leon.png,"d3,react",,"Design, co-creation and prototype of the new team profile view to trigger wonder and more diverse feedback writings."
+Keshif,client,keshif.jpg,"d3,js",,"Data processing and cleaning. Design, prototype and implementation of several cutsomed charts for an end-user client."
+UFRIST de Bordeaux,teaching / workshop,urfist.jpg,,,"Co-creation of a one-day dataviz workshop for researchers with<a class='niceLink' href='https://www.tse-fr.eu/fr/people/christophe-bontemps'>Christophe Bontemps</a>, combining theory and practice with a data visualization hackaviz."
+INRA,client,inra.jpg,"R,Shiny",,Dataviz helper in a research group building an exploratory visualization tool to visualize yeast and bacterias presence & spreading in fermented foods.
+Makina Corpus,client,collageMakinaH.jpg,"reactvis,kepler.gl",,Dataviz helper in a team prototyping a territorial information system
+World's Oldest People,personal,87-oldest.png,"color's pen",,"Reddit dataviz battle of January, I feel drawing create another type of connexion between you and the data, closer  than when you are generating it from code or tools 🧐"
+Explaining something visually everyday,personal,100daysproject.png,pens,https://www.instagram.com/edith.visualize/,"the100daysproject, challenge accepted ! Or how to push your creative process by making the same kind of creation everyday for 100 days !"
+Ecological Footprint of countries,personal,ecologicalfootprint.jpg,Datawrapper,,MakeoverMonday W17 - Ecological Footprint of Countries using Datawrapper
+How diverse is your tech company ? ,personal,img,tech,link,description
+title,personal,94-dtp.png,d3js,https://emaulandi.github.io/vizforsocialgood-dtp-may18/,"When we loose diversity on the way to tech and leadership teams, and the missing women of color"
+New Year's songs as snowflakes,personal,88-snowflake.jpg,"d3,react",https://maryzam.github.io/snowflake-songs/#/,"A collaboration led by @MaryZamCode, I learn a lot working with her 🙏"
+Facilitate yourself with drawing and graphics ! — #1,personal,9-facilite-article.jpg,,https://medium.com/@Ed_Patey/facilite-toi-toi-m%C3%AAme-graphiquement-1-a16bba457985, Small stories on the way to graphic facilitation ... ✏
+Pokemons @ Data is Beautiful by Reddit,personal,90-pokemons.jpg,jupyter notebooks,https://github.com/emaulandi/dataisbeautiful-reddit/blob/master/september/LegendarayRegularPokemons.pdf,"A Pokemon poster - Legendary vs regular pokemons. Design practice with no code and Jupyter notebook practice for analysis"
+Equal Measure 2030 @ MakeOverMonday,personal,91-MM39.jpg,google slides,https://github.com/emaulandi/MakeOverMonday/blob/master/W39/MM-W39.pdf,"Because it's always a good day to \#VisualizeEquality with @Equal2030 and \#MakeoverMonday 📊 A first try at marimekko chart that I know thanks to @lisacrost newsletter 😍"
+Birds @ Data is Beautiful by Reddit,personal,92-dataisbeautiful-july.png,d3,https://emaulandi.github.io/dataisbeautiful-reddit/july/,What birds eat what seads ? Tryings d3 force
+Resources to deepen your dataviz skills,personal,93-ressources.jpg,d3,https://emaulandi.github.io/datavisressourcesvis/,"From podcast to MOOC, and also challenges, I am sharing resources that are very usefull to me !"
+Sillicon Valley companies as 100 people - Visualizing diversity,personal,swdapril2018.jpg,d3,https://emaulandi.github.io/SWDchallenge2018/April/square.html,"Take a look at diversity for 23 sillicon valley companies that did submit EEO-1 diversity reports. Based on the great work of Reveal (from The Center for Investigative Reporting)"
+Hackaviz 2018 macking of (🇫🇷),personal,makingoff.jpg,d3,https://medium.com/@Ed_Patey/making-off-et-enseignements-du-hackaviz-2018-a828a174a02f,Retours d'expérience et d'apprentissages suite au Hackaviz 2018
+Investigating Occitanie population dynamics (🇫🇷),personal,occitanie.jpg,d3,https://emaulandi.github.io/occitanie-hackaviz2018/,"Hackaviz 1st prize, organized by Toulouse Dataviz association. Project in Frenc only. From population data between 1968 and 2014, let's investigate about population dynamics."
