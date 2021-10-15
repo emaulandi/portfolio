@@ -10,8 +10,16 @@
 </svelte:head>
 
 <div class="content">
-  <h1>Hello</h1>
-  {#each projects as project}
-    <Project {...project}/>
-  {/each}
+  <div class="project-container">
+    {#each projects as project}
+      <Project {...project}/>
+    {/each}
+  </div>
 </div>
+
+<style>
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+</style>

@@ -1,5 +1,5 @@
 export const projectTypeColors = {
-  client: '#ea3546',
-  'teaching / workshop': '#f86624',
+  client: '#bbd0ff',
+  'teaching / workshop': '#fb8f67',
   personal: '#f9c80e',
 };
