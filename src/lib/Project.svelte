@@ -1,4 +1,6 @@
 <script>
+  export let large;
+  export let year;
   export let title;
   export let type;
   export let description;
@@ -11,6 +13,8 @@
 
 <div
   class="project"
+  class:project-normal={!Boolean(large)}
+  class:project-large={Boolean(large)}
   style="--color: {projectTypeColors[type]}"
 >
   <img
@@ -20,6 +24,7 @@
   >
   <div class="project-content">
     <h2>{title}</h2>
+    <p>{year}</p>
     <p>{@html description}</p>
     <p>Tech {tech.split(',')}</p>
   </div>
@@ -28,9 +33,8 @@
 <style>
   .project {
     border-top: 0.5rem solid var(--color);
-    background-color: #f8f9fa;
-    height: 40vh;
-    width: 40vh;
+    height: 30vh;
+    width: 30vh;
     flex-grow: 1;
     overflow: hidden;
     position: relative;
