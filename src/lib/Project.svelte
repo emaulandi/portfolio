@@ -5,26 +5,30 @@
   export let description;
   export let img;
   export let tech;
+  export let link;
 
   import { base } from '$app/paths';
   import { projectTypeColors } from '../config';
+  import ConditionalLink from './ConditionalLink.svelte';
 </script>
 
 <div
   class="project"
   style="--color: {projectTypeColors[type]}"
 >
-  <img
-    width='100%'
-    src={`${base}/images/${img}`}
-    alt={`${base}/images/${img}`}
-  >
-  <div class="project-content">
-    <h2>{title}</h2>
-    <p>{year}</p>
-    <p>{@html description}</p>
-    <p>Tech {tech.split(',')}</p>
-  </div>
+  <ConditionalLink isWrapped={link} href={link}>
+    <img
+      width='100%'
+      src={`${base}/images/${img}`}
+      alt={`${base}/images/${img}`}
+    >
+    <div class="project-content">
+      <h2>{title}</h2>
+      <p>{year}</p>
+      <p>{@html description}</p>
+      <p>Tech {tech.split(',')}</p>
+    </div>
+  </ConditionalLink>
 </div>
 
 <style>
@@ -42,7 +46,7 @@
     color: white;
   }
 
-  .project:hover > img {
+  .project:hover img {
     opacity: 0;
   }
 
