@@ -1,5 +1,4 @@
 <script>
-  export let large;
   export let year;
   export let title;
   export let type;
@@ -13,8 +12,6 @@
 
 <div
   class="project"
-  class:project-normal={!Boolean(large)}
-  class:project-large={Boolean(large)}
   style="--color: {projectTypeColors[type]}"
 >
   <img
