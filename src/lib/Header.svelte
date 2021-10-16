@@ -1,5 +1,7 @@
 <script>
 	import { base } from "$app/paths";
+
+	import IconLinks from './Header.IconLinks.svelte';
 </script>
 
 <header>
@@ -7,27 +9,26 @@
 		<a sveltekit:prefetch href="{base}/">Home</a>
 		<a sveltekit:prefetch href="{base}/projects">About</a>
 	</nav>
+	<p>Hi 👋, I'm Edith, a front-end developer and a dataviz practitioner and teacher</p>
+	<IconLinks />
 </header>
 
 <style>
 	header {
 		padding-top: 1em;
-		padding-left: 0.5em;
-		width: 10em;
-		top: 0;
+		padding-left: 1.5em;
+		padding-right: 1em;
+		width: 15em;
 	}
 
 	nav {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		list-style: none;
 		background: var(--background);
 	}
 
 	nav a {
-		height: 100%;
-		padding: 0 1em;
 		color: var(--heading-color);
 		font-weight: 900;
 		text-decoration: none;
@@ -40,12 +41,12 @@
 
 	@media (max-width: 720px) {
 		header {
-			width: 100%;
-			padding-bottom: 10px;
+			width: 90%;
 		}
 
 		nav {
 			flex-direction: row;
+			justify-content: space-around;
 		}
 	}
 </style>

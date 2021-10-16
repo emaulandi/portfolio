@@ -63,6 +63,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	color: var(--heading-color);
 }
 
 h1 {
