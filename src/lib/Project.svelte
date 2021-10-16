@@ -34,8 +34,8 @@
 <style>
   .project {
     border-top: 0.5rem solid var(--color);
-    height: 30vh;
-    width: 30vh;
+    height: 35vh;
+    width: 35vh;
     flex-grow: 1;
     overflow: hidden;
     position: relative;

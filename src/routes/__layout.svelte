@@ -9,10 +9,6 @@
 	<slot />
 </main>
 
-<footer>
-	<p>Footer</p>
-</footer>
-
 <style>
 	main {
 		flex: 1;
@@ -22,13 +18,5 @@
 		width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
 	}
 </style>
