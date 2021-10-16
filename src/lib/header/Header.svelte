@@ -1,5 +1,5 @@
 <script>
-	import { base } from '$app/paths';
+	import { base } from "$app/paths";
 </script>
 
 <header>
@@ -12,7 +12,8 @@
 <style>
 	header {
 		padding-top: 1em;
-		width: 15em;
+		padding-left: 0.5em;
+		width: 10em;
 		top: 0;
 	}
 
@@ -35,5 +36,16 @@
 
 	a:hover {
 		color: var(--accent-color);
+	}
+
+	@media (max-width: 720px) {
+		header {
+			width: 100%;
+			padding-bottom: 10px;
+		}
+
+		nav {
+			flex-direction: row;
+		}
 	}
 </style>

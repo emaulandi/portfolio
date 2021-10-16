@@ -27,4 +27,10 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+
+	@media (max-width: 720px) {
+		.container {
+			flex-direction: column;
+		}
+	}
 </style>
