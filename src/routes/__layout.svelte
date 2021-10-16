@@ -23,7 +23,6 @@
 		display: flex;
 		flex-direction: column;
 		overflow-y: scroll;
-		padding: 1rem 0rem;
 		width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;

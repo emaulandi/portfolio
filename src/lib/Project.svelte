@@ -34,6 +34,7 @@
 <style>
   .project {
     border-top: 0.5rem solid var(--color);
+    border-left: 0.5rem solid var(--color);
     height: 35vh;
     width: 35vh;
     flex-grow: 1;
