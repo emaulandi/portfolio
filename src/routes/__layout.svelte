@@ -3,17 +3,26 @@
 	import '../app.css';
 </script>
 
-<Header />
+<div class="container">
+	<Header />
 
-<main>
-	<slot />
-</main>
+	<main>
+		<slot />
+	</main>
+</div>
 
 <style>
+	.container {
+		display: flex;
+		flex-direction: row;
+		height: 100vh;
+	}
+
 	main {
-		flex: 1;
+		flex-grow: 1;
 		display: flex;
 		flex-direction: column;
+		overflow-y: scroll;
 		padding: 1rem 0rem;
 		width: 100%;
 		margin: 0 auto;

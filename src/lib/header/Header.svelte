@@ -4,46 +4,28 @@
 
 <header>
 	<nav>
-		<ul>
-			<li><a sveltekit:prefetch href="{base}/">Home</a></li>
-			<li><a sveltekit:prefetch href="{base}/projects">About</a></li>
-		</ul>
+		<a sveltekit:prefetch href="{base}/">Home</a>
+		<a sveltekit:prefetch href="{base}/projects">About</a>
 	</nav>
 </header>
 
 <style>
 	header {
-		display: flex;
-		justify-content: space-between;
+		padding-top: 1em;
+		width: 15em;
+		top: 0;
 	}
 
 	nav {
 		display: flex;
 		justify-content: center;
-	}
-
-	ul {
-		position: relative;
-		padding: 0;
-		margin: 0;
-		height: 3em;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		flex-direction: column;
 		list-style: none;
 		background: var(--background);
-		background-size: contain;
-	}
-
-	li {
-		position: relative;
-		height: 100%;
 	}
 
 	nav a {
-		display: flex;
 		height: 100%;
-		align-items: center;
 		padding: 0 1em;
 		color: var(--heading-color);
 		font-weight: 900;
