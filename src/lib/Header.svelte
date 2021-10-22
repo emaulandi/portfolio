@@ -5,13 +5,12 @@
 	import Tag from '$lib/Header.Tag.svelte';
 	import { projectTypeColors } from '../config';
 	const projectsType =Object.entries(projectTypeColors).map(([key, value]) => ({ type: key, color: value}));
-	console.log(projectsType);
 </script>
 
 <header>
 	<nav>
-		<a sveltekit:prefetch href="{base}/">Home</a>
-		<a sveltekit:prefetch href="{base}/projects">About</a>
+		<a sveltekit:prefetch href="{base}/">Projects</a>
+		<a sveltekit:prefetch href="{base}/about">About</a>
 	</nav>
 	<p>Hi 👋, I'm Edith, a front-end developer and a dataviz practitioner and teacher</p>
 	<IconLinks />

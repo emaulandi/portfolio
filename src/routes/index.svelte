@@ -1,27 +1,24 @@
-<script context="module">
-	export const prerender = true;
+<script>
+  import projects from "$data/projects.csv";
+
+  import Project from '$lib/Project.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Projects</title>
 </svelte:head>
 
-<section>
-	<h1>
-		Welcome
-	</h1>
-</section>
+<div class="content">
+  <div class="project-container">
+    {#each projects as project}
+      <Project {...project}/>
+    {/each}
+  </div>
+</div>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 </style>
