@@ -2,6 +2,10 @@
 	import { base } from "$app/paths";
 
 	import IconLinks from './Header.IconLinks.svelte';
+	import Tag from '$lib/Header.Tag.svelte';
+	import { projectTypeColors } from '../config';
+	const projectsType =Object.entries(projectTypeColors).map(([key, value]) => ({ type: key, color: value}));
+	console.log(projectsType);
 </script>
 
 <header>
@@ -11,6 +15,11 @@
 	</nav>
 	<p>Hi 👋, I'm Edith, a front-end developer and a dataviz practitioner and teacher</p>
 	<IconLinks />
+	<div>
+		{#each projectsType as projectType}
+			<Tag {...projectType}/>
+		{/each}
+	</div>
 </header>
 
 <style>
