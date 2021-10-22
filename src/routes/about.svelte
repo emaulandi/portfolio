@@ -50,9 +50,15 @@
 	<h1>
 		Inspiration
 	</h1>
+	<p>
+		Coming soon 🪄 
+	</p>
 	<h1>
 		They said
 	</h1>
+	<p>
+		Coming soon 🪶 
+	</p>
 </section>
 
 <style>
