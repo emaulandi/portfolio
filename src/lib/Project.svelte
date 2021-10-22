@@ -10,6 +10,9 @@
   import { base } from '$app/paths';
   import { projectTypeColors } from '../config';
   import ConditionalLink from './ConditionalLink.svelte';
+  import Tag from '$lib/Header.Tag.svelte';
+
+  const techs = tech.split(',').filter(label => label !== "");
 </script>
 
 <div
@@ -23,10 +26,11 @@
       alt={`${base}/images/${img}`}
     >
     <div class="project-content">
-      <h2>{title}</h2>
-      <p>{year}</p>
-      <p>{@html description}</p>
-      <p>Tech {tech.split(',')}</p>
+      <h2 class="title">{title}</h2>
+      <p class="description">{@html description}</p>
+      {#each techs as tech}
+        <Tag type={tech} color={"#8d99ae"}/>
+      {/each}
     </div>
   </ConditionalLink>
 </div>
@@ -62,4 +66,13 @@
   .project:hover .project-content{
     visibility: visible;
   }
+
+  .description {
+    margin: 0;
+  }
+
+  .title {
+    margin-bottom: 0.5em;
+  }
+
 </style>
