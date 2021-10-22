@@ -10,7 +10,9 @@
 	import { projectTypeColors } from '../config';
 	const client = { type: "client" , color: projectTypeColors["client"]};
 	const talk = { type: "talk" , color: projectTypeColors["talk"]};
-	const teaching = { type: "teaching / workshop" , color: projectTypeColors["teaching / workshop"]};
+	const teaching = { type: "teaching" , color: projectTypeColors["teaching"]};
+	const corporate = { type: "corporate" , color: projectTypeColors["corporate"]};
+	const personal = { type: "personal" , color: projectTypeColors["personal"]};
 </script>
 
 <svelte:head>
@@ -28,10 +30,13 @@
 		Growing my data visualization skills I then developed many projects as a freelancer, see <Tag {...client} /> projects.
 	</p>
 	<p>
-		Sharing my work and facilitating events in meetups I gave <Tag {...talk} /> and built my <Tag {...teaching} /> skills.
+		Sharing my work and facilitating events in meetups I gave <Tag {...talk} /> and built my <Tag {...teaching} /> skills that I know used teaching an <b>Introduction to Datavisulization</b> class to engineering students in Montpellier in 2020/21 and this year.
 	</p>
 	<p>
-		I now work part-time at Makina Corpus doing front-end and data-visualization with a team of great folks on mostly public territory and environment projects 😍.
+		I now work part-time at Makina Corpus doing front-end and data-visualization with a team of great folks on mostly public territory and environment projects 😍, see <Tag {...corporate} /> items.
+	</p>
+	<p>
+		Most of the time, I'm also working on <Tag {...personal} /> projects around social issues, climate change, feminism and some other random topics.
 	</p>
 	<h1>
 		Tech
