@@ -1,4 +1,6 @@
 year,title,type,img,tech,link,description
+2022,Les shifters - Présidentielles 2022,personal,snbc.png,"penpot",https://presidentielle2022.theshifters.org/decryptage/,Apport d'expertise sur la conception et création de visualisation de données au sein du groupe d ebénévole des Shifters
+2021,Worl Inequality lab - chart remake,personal,wil_chart.png,"observable,hand dataviz",https://wid.world/news-article/climate-change-the-global-inequality-of-carbon-emissions/,Proposition d'un nouveau graphique pour un rapport du Worl Inequality Lab sur twitter - repris dans un papier
 2021,Data Visualization class,teaching,epf.jpg,"python,seaborn,plotly",,18 hours of teaching 'Introduction to Data Visualization' class to data & computer science engineer students
 2021,Quand la dataviz intéroge le menu des cantines 🇫🇷,talk,salon_data_cantine.jpg,"python,observable,d3",https://www.youtube.com/watch?v=z37KwBPNDec,Talk au salon de la data à Nantes.
 2021,Quand la dataviz intéroge le menu des cantines 🇫🇷,personal,menu_catines.png,"python,observable,d3",https://menu-cantine.netlify.app/,Qu'est-ce que l'on peut apprendre sur le menu des cantines grâce à l'open data et à la dataviz ? C'est la question que l'on s'est posé (Florian Melki et Edith Maulandi).
