@@ -34,7 +34,7 @@
 			Sharing my work and facilitating events in meetups I gave <Tag {...talk} /> and built my <Tag {...teaching} /> skills that I know used teaching an <b>Introduction to Datavisulization</b> class to engineering students in Montpellier in 2020/21 and this year.
 		</p>
 		<p>
-			I now work part-time at Makina Corpus doing front-end and data-visualization with a team of great folks on mostly public territory and environment projects 😍, see <Tag {...corporate} /> items.
+			I worked part-time at Makina Corpus doing front-end and data-visualization with a team of great folks on mostly public territory and environment projects 😍, see <Tag {...corporate} /> items.
 		</p>
 		<p>
 			Most of the time, I'm also working on <Tag {...personal} /> projects around social issues, climate change, feminism and some other random topics.
